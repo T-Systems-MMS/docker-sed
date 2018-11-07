@@ -10,7 +10,7 @@ Simply run `docker build --tag sed:1.0 .` in this directory.
 
 ## Running The Docker sed Tool
 
-Timply invoke the [`sed`](./sed) wrapper script, just as you would a regular `sed` binary.
+Simply invoke the [`sed`](./sed) wrapper script, just as you would a regular `sed` binary.
 
 ```
 ./sed -i.bak -e 's/foo/bar/g' file.txt
